@@ -1,0 +1,51 @@
+html{ margin:0px; padding:0px;}
+body{ margin:0px; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+*{ margin:0px; padding:0px;}
+div{ margin:0px; padding:0px;}
+ul{ margin:0px; padding:0px; list-style:none}
+li{ margin:0px; padding:0px; list-style:none}
+ol{ margin:0px; padding:0px; list-style:none}
+dl{ margin:0px; padding:0px;}
+dt{ margin:0px; padding:0px;}
+tt{ margin:0px; padding:0px;}
+h1{ font-size:100%; margin:0px; padding:0px;}
+h2{font-size:100%; margin:0px; padding:0px;}
+h3{font-size:100%; margin:0px; padding:0px;}
+h4{font-size:100%; margin:0px; padding:0px;}
+h5{font-size:100%; margin:0px; padding:0px;}
+h6{font-size:100%; margin:0px; padding:0px;}
+p{ margin:0px; padding:0px;}
+form{ margin:0px; padding:0px;}
+th{ margin:0px; padding:0px;}
+td{ margin:0px; padding:0px;}
+img{ margin:0px; padding:0px;}
+input{
+   margin:0px; padding:0px;  margin:0px; font:100% Arial, Helvetica, 
+   clean, sans-serif; font-size-adjust:none; font-stretch:normal; color:#53684d
+}
+textarea{ 
+   margin:0px; padding:0px;  margin:0px; font:100% Arial, Helvetica, 
+   clean, sans-serif; font-size-adjust:none; font-stretch:normal;
+}
+select{
+  margin:0px; font:100% Arial, Helvetica, clean, sans-serif; 
+  font-size-adjust:none; font-stretch:normal;
+}
+a{ text-decoration:none;color:#000000;}
+a:focus{ outline:none}
+img{ border:none}
+b{ font-style:normal;}
+em{ font-style:normal}
+i{ font-style:normal;}
+.clr{ clear:both;}
+/*login*/
+.login{ width:824px; height:509px;margin:0px auto; background:url(../image/login.png) no-repeat; margin-top:80px; color:#fff; font-size:13px;}
+.login-logo{ padding:46px 0px 0px 192px; width:132px; height:80px;}
+.login table{ width:215px; margin:30px auto;}
+.login  td{ height:32px;}
+.login input,img{ vertical-align:middle;}
+.login .input1{ width:146px; height:22px; background:url(../image/login_input1.gif) no-repeat; border:1px solid #8cc3f9; color:#0e4a88; line-height:22px; padding-left:5px; font-size:12px;}
+.login .input2{ width:90px; height:22px; background:url(../image/login_input2.gif) no-repeat; border:1px solid #8cc3f9; margin-right:5px; font-size:12px;}
+.login .td1{ padding-top:15px;}
+.login-copy{ text-align:center;}
+/*login end*/

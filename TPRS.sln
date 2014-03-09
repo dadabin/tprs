@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "Dal\Dal.csproj", "{CBC40553-4F8B-4184-B50F-8FD4B2D47BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{45BAD593-AF29-403B-93F9-05A470F275B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bll", "Bll\Bll.csproj", "{6616BD36-ED20-4FA0-8EBB-8CB81CC65F65}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite5", "WebSite5\", "{6A7A62F0-B6E1-4CF5-A5AF-8B0933BAAAA5}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "Svn"
+		SccAuxPath = "Svn"
+		SccLocalPath = "Svn"
+		SccProvider = "SubversionScc"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		ProjectReferences = "{6616BD36-ED20-4FA0-8EBB-8CB81CC65F65}|Bll.dll;{CBC40553-4F8B-4184-B50F-8FD4B2D47BCA}|Dal.dll;{45BAD593-AF29-403B-93F9-05A470F275B4}|Model.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/WebSite5"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite5\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite5\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSite5"
+		Release.AspNetCompiler.PhysicalPath = "WebSite5\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite5\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10852"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBC40553-4F8B-4184-B50F-8FD4B2D47BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC40553-4F8B-4184-B50F-8FD4B2D47BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC40553-4F8B-4184-B50F-8FD4B2D47BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC40553-4F8B-4184-B50F-8FD4B2D47BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BAD593-AF29-403B-93F9-05A470F275B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BAD593-AF29-403B-93F9-05A470F275B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BAD593-AF29-403B-93F9-05A470F275B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BAD593-AF29-403B-93F9-05A470F275B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6616BD36-ED20-4FA0-8EBB-8CB81CC65F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6616BD36-ED20-4FA0-8EBB-8CB81CC65F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6616BD36-ED20-4FA0-8EBB-8CB81CC65F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6616BD36-ED20-4FA0-8EBB-8CB81CC65F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7A62F0-B6E1-4CF5-A5AF-8B0933BAAAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7A62F0-B6E1-4CF5-A5AF-8B0933BAAAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7A62F0-B6E1-4CF5-A5AF-8B0933BAAAA5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7A62F0-B6E1-4CF5-A5AF-8B0933BAAAA5}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

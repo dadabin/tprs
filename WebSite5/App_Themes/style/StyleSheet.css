@@ -1,0 +1,69 @@
+﻿.GridFrame
+{
+    margin-top: 5px;
+    border-collapse: collapse;
+    border-right: #2042eb 1px solid;
+    border-top: #2042eb 1px solid;
+    border-left: #2042eb 1px solid;
+    border-bottom: #2042eb 1px solid;
+}
+.GridItem td ,.GridAlter td
+{
+    border-right: #2042eb 1px solid;
+    border-top: #2042eb 1px solid;
+    border-left: #2042eb 1px solid;
+    border-bottom: #2042eb 1px solid;
+}
+.GridItem
+{
+    font-family: arial;
+    font-size: 12px;
+    background: #F6F7F9;
+    padding: 0px 4px 0px 4px;
+    height: 14px;
+}
+
+.GridEdit
+{
+    font-family: arial;
+    font-size: 12px;
+    background: #ffffff;
+    padding: 0px 4px 0px 4px;
+    height: 14px;
+}
+
+.GridHeader
+{
+    font: bold ;
+    font-family: 宋体;
+    font-size: 13px;
+    background: #8caae7;
+    border-bottom: #2042eb 1px solid;
+    border-top: #2042eb 1px solid;
+    color: #ffffff;
+    text-align:center;
+    height:30px;
+}
+.GridHeader th
+{
+    font: bold ;
+    font-family: 宋体;
+    font-size: 15px;
+    background:#1860f2;
+    border-bottom: #2042eb 1px solid;
+    border-top: #2042eb 1px solid;
+    color: #ffffff;
+    text-align:center;
+}
+
+.GridAlter
+{
+    font-family: arial;
+    font-size: 12px;
+    background: #F6F7F9;
+    padding: 0px 4px 0px 4px;
+    height: 14px;
+}
+
+  table
+  { border-collapse:collapse; }

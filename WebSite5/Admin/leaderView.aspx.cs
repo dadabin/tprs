@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Admin_leaderView : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void AspNetPager1_PageChanged(object sender, EventArgs e)
+    {
+
+    }
+}
